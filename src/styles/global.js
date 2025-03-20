@@ -8,6 +8,13 @@ export default createGlobalStyle`
 
 }
 
+body, buttton, input, text-area {
+    font-family: "Roboto Slab", serif;
+   font-size: 16px;
+   outline: none;
+
+}
+
 body {
    background-color: ${({theme}) => theme.COLORS.BACKGROUND_900};
    color: ${({theme}) => theme.COLORS.WHITE};
@@ -25,6 +32,4 @@ button, a {
 button:hover, a:hover {
   filter: brightness(0.9);
 }
-
-
 `;
