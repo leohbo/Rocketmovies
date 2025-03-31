@@ -9,7 +9,7 @@ export default createGlobalStyle`
 }
 
 body, buttton, input, text-area {
-    font-family: "Roboto Slab", serif;
+   font-family: "Roboto Slab", serif;
    font-size: 16px;
    outline: none;
 
