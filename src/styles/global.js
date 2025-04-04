@@ -8,9 +8,14 @@ export default createGlobalStyle`
 
 }
 
+:root {
+font-size: 62.5%rem;
+
+}
+
 body, buttton, input, text-area {
    font-family: "Roboto Slab", serif;
-   font-size: 16px;
+   font-size: 1.6rem;
    outline: none;
 
 }

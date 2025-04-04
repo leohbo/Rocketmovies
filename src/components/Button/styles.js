@@ -6,10 +6,10 @@ width: 100%;
 background-color: ${({theme}) => theme.COLORS.PINK};
 color: ${({theme}) => theme.COLORS.BACKGROUND_800};
 
-height: 56px;
-padding: 0 16px;
+height: 5.6rem;
+padding: 0 1.6rem;
 border: 0;
-margin-top: 24px;
+margin-top: 2.4rem;
 border-radius: 10px;
 font-weight: 500;
 
