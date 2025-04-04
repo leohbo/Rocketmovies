@@ -13,9 +13,21 @@ border-bottom-color: ${({theme}) => theme.COLORS.BACKGROUND_700};
 display: flex;
 justify-content: space-between;
 
+position: relative;
 padding: 0 12.3rem;
-
 `;
+
+export const Brand = styled.div`
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+> h1 {
+font-size: 2.4rem;
+color: ${({ theme }) => theme.COLORS.PINK};
+}
+
+`
 
 export const Profile = styled.div`
 display: flex;
@@ -23,7 +35,7 @@ align-items: center;
 
 > img {
 
-border-radius: 35px;
+border-radius: 50%;
   width: 6.4rem;
   height: 6.4rem;
   border: none;
@@ -34,7 +46,7 @@ border-radius: 35px;
 
 display: flex;
 flex-direction: column;
-margin-left: 0.9rem;
+margin-right: 0.9rem;
 line-height: 1.8rem;
 
 span {    
